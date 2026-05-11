@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "name": "Embedded Systems",
+      "icon": "cpu",
+      "skills": ["ESP32", "STM32", "Arduino", "Raspberry Pi", "IoT", "Sensor Integration", "Embedded Design"]
+    },
+    {
+      "name": "Software & Robotics",
+      "icon": "code",
+      "skills": ["ROS 2", "Gazebo", "RViz", "Python", "C", "C++", "HTML", "CSS", "JavaScript", "PHP", "Linux", "Ubuntu", "Git", "GitHub"]
+    },
+    {
+      "name": "Networking",
+      "icon": "network",
+      "skills": ["Wireshark", "Routing Protocols", "Protocol Analysis", "Network Troubleshooting"]
+    },
+    {
+      "name": "AI / ML",
+      "icon": "brain",
+      "skills": ["Machine Learning", "Deep Learning", "Computer Vision", "API Integrations"]
+    }
+  ]
+}

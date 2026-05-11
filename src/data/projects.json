@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": "cyra",
+      "title": "CYRA",
+      "tagline": "ROS 2 Based AI Humanoid Tutor Robot",
+      "featured": true,
+      "description": "An AI-powered humanoid tutor robot built on ROS 2. CYRA combines speech, vision, and locomotion to deliver interactive teaching experiences. Designed with a modular ROS 2 stack — perception, navigation, dialog, and expressive motion subsystems — integrated with LLM-driven reasoning for adaptive tutoring.",
+      "tech": ["ROS 2", "Python", "Computer Vision", "LLM", "Embedded", "Gazebo", "RViz"],
+      "github": null,
+      "demo": null,
+      "images": [],
+      "video": null
+    },
+    {
+      "id": "smart-wheelchair",
+      "title": "Human Assisting Smart Wheelchair",
+      "tagline": "Assistive mobility with embedded intelligence",
+      "featured": false,
+      "description": "A smart wheelchair platform that fuses sensor input, obstacle avoidance, and assistive control to support users with limited mobility. Embedded controllers handle motor drive, safety interlocks, and user-input modalities including joystick and gesture.",
+      "tech": ["ESP32", "Sensors", "Embedded C", "Motor Control", "Safety Systems"],
+      "github": null,
+      "demo": null,
+      "images": [],
+      "video": null
+    },
+    {
+      "id": "saferide",
+      "title": "SAFERIDE",
+      "tagline": "Two-wheeler safety & accident detection system",
+      "featured": false,
+      "description": "An embedded safety platform for two-wheeler riders. Detects accidents in real time, triggers alerts to emergency contacts with location, and enforces helmet-based ignition interlock to encourage safer riding behavior.",
+      "tech": ["ESP32", "GPS", "GSM", "IoT", "Sensor Fusion"],
+      "github": null,
+      "demo": null,
+      "images": [],
+      "video": null
+    },
+    {
+      "id": "borewell-rescue",
+      "title": "Borewell Rescue Robot",
+      "tagline": "Compact rescue robotics for confined spaces",
+      "featured": false,
+      "description": "A compact, vertically-deployable rescue robot designed for borewell scenarios. Carries a camera, environmental sensors, and an actuated grip mechanism to assist trapped victims while providing live telemetry to operators above ground.",
+      "tech": ["Embedded", "Mechanical Design", "Camera", "Wireless Telemetry"],
+      "github": null,
+      "demo": null,
+      "images": [],
+      "video": null
+    },
+    {
+      "id": "alert-vision",
+      "title": "ALERT VISION",
+      "tagline": "Computer-vision driven alert system",
+      "featured": false,
+      "description": "A computer vision platform that detects critical events in real time — drowsiness, intrusion, or unsafe activity — and dispatches contextual alerts. Built around a lightweight inference pipeline suitable for edge deployment.",
+      "tech": ["Computer Vision", "Python", "Deep Learning", "Edge AI"],
+      "github": null,
+      "demo": null,
+      "images": [],
+      "video": null
+    }
+  ]
+}

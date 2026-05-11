@@ -1,0 +1,11 @@
+{
+  "certificates": [
+    { "id": "vi-microsystems", "title": "7-Day Internship — Embedded Systems", "issuer": "VI Microsystems", "file": null },
+    { "id": "ai-conclave", "title": "AI Conclave — Participation", "issuer": "AI Conclave", "file": null },
+    { "id": "ros2-tce", "title": "ROS 2 Workshop", "issuer": "Thiagarajar College of Engineering", "file": null },
+    { "id": "nptel-iiot", "title": "Industrial IoT 4.0", "issuer": "NPTEL", "file": null },
+    { "id": "nptel-pcb", "title": "Hands-on PCB Design", "issuer": "NPTEL", "file": null },
+    { "id": "nptel-hci", "title": "Human Computer Interface", "issuer": "NPTEL", "file": null },
+    { "id": "nptel-iot", "title": "Internet of Things", "issuer": "NPTEL", "file": null }
+  ]
+}
