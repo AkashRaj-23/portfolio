@@ -14,7 +14,7 @@ export default function Hero() {
     return () => clearInterval(t);
   }, []);
 
-  const photo = `${BASE}images/profile/akash.jpg`;
+  const photo = `${BASE}akash.jpg`;
 
   return (
     <section id="home" className="relative pt-32 sm:pt-36 pb-20 px-4 min-h-screen flex items-center">
