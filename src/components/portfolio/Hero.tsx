@@ -41,7 +41,7 @@ export function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-28 pb-16 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-[1.4fr_1fr] xl:grid-cols-[1.5fr_1fr] gap-12 lg:gap-6 xl:gap-8 items-center">
 
           <div className="space-y-6 animate-fade-in text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs font-mono">
@@ -59,7 +59,7 @@ export function Hero() {
               <span className="inline-block w-[2px] h-5 bg-primary-glow ml-1 align-middle animate-blink" />
             </div>
 
-            <p className="text-base md:text-lg text-muted-foreground max-w-xl leading-relaxed mx-auto lg:mx-0">
+            <p className="text-base md:text-lg text-muted-foreground max-w-xl lg:max-w-2xl xl:max-w-3xl leading-relaxed mx-auto lg:mx-0">
               Final year Electronics & Communication Engineering student passionate about{" "}
               <span className="text-foreground">robotics, ROS 2, embedded systems, and AI integration</span>.
               I build practical technologies that fuse hardware, software, and automation to
@@ -110,7 +110,7 @@ export function Hero() {
           </div>
 
           {/* Portrait — appears below intro on mobile, right side on desktop */}
-          <div className="relative animate-fade-in flex justify-center lg:justify-self-end">
+          <div className="relative animate-fade-in flex justify-center lg:justify-self-start">
             <HeroPortrait />
           </div>
         </div>
@@ -125,7 +125,7 @@ function HeroPortrait() {
       <div className="absolute -inset-8 bg-gradient-to-tr from-primary/40 via-transparent to-cyan/30 blur-3xl rounded-full" aria-hidden />
       <div className="relative">
         <div className="absolute -inset-1 bg-gradient-to-tr from-primary via-primary-glow to-cyan rounded-3xl opacity-70 blur-md" />
-        <div className="relative rounded-3xl overflow-hidden border-gradient glow-strong w-[260px] sm:w-[320px] md:w-[380px] lg:w-[400px] aspect-[3/4]">
+        <div className="relative rounded-3xl overflow-hidden border-gradient glow-strong w-[260px] sm:w-[320px] md:w-[380px] lg:w-[400px] xl:w-[440px] aspect-[3/4]">
           <img src={profile} alt="Akash Raj S K portrait" className="w-full h-full object-cover" loading="eager" />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
           <div className="absolute bottom-4 left-4 right-4 glass rounded-xl p-3 font-mono text-xs">
