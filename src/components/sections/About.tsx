@@ -14,7 +14,7 @@ const items = [
 export default function About() {
   return (
     <section id="about" className="relative py-24 px-4">
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-7xl">
         <SectionHeader eyebrow="// 01 — about" title="The engineer behind the systems" />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
           {items.map(({ Icon, title, body }) => (
