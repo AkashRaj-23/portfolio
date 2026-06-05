@@ -1,64 +1,104 @@
-{
-  "projects": [
-    {
-      "id": "cyra",
-      "title": "CYRA",
-      "tagline": "ROS 2 Based AI Humanoid Tutor Robot",
-      "featured": true,
-      "description": "An AI-powered humanoid tutor robot built on ROS 2. CYRA combines speech, vision, and locomotion to deliver interactive teaching experiences. Designed with a modular ROS 2 stack — perception, navigation, dialog, and expressive motion subsystems — integrated with LLM-driven reasoning for adaptive tutoring.",
-      "tech": ["ROS 2", "Python", "Computer Vision", "LLM", "Embedded", "Gazebo", "RViz"],
-      "github": null,
-      "demo": null,
-      "images": [],
-      "video": null
-    },
-    {
-      "id": "smart-wheelchair",
-      "title": "Human Assisting Smart Wheelchair",
-      "tagline": "Assistive mobility with embedded intelligence",
-      "featured": false,
-      "description": "A smart wheelchair platform that fuses sensor input, obstacle avoidance, and assistive control to support users with limited mobility. Embedded controllers handle motor drive, safety interlocks, and user-input modalities including joystick and gesture.",
-      "tech": ["ESP32", "Sensors", "Embedded C", "Motor Control", "Safety Systems"],
-      "github": null,
-      "demo": null,
-      "images": [],
-      "video": null
-    },
-    {
-      "id": "saferide",
-      "title": "SAFERIDE",
-      "tagline": "Two-wheeler safety & accident detection system",
-      "featured": false,
-      "description": "An embedded safety platform for two-wheeler riders. Detects accidents in real time, triggers alerts to emergency contacts with location, and enforces helmet-based ignition interlock to encourage safer riding behavior.",
-      "tech": ["ESP32", "GPS", "GSM", "IoT", "Sensor Fusion"],
-      "github": null,
-      "demo": null,
-      "images": [],
-      "video": null
-    },
-    {
-      "id": "borewell-rescue",
-      "title": "Borewell Rescue Robot",
-      "tagline": "Compact rescue robotics for confined spaces",
-      "featured": false,
-      "description": "A compact, vertically-deployable rescue robot designed for borewell scenarios. Carries a camera, environmental sensors, and an actuated grip mechanism to assist trapped victims while providing live telemetry to operators above ground.",
-      "tech": ["Embedded", "Mechanical Design", "Camera", "Wireless Telemetry"],
-      "github": null,
-      "demo": null,
-      "images": [],
-      "video": null
-    },
-    {
-      "id": "alert-vision",
-      "title": "ALERT VISION",
-      "tagline": "Computer-vision driven alert system",
-      "featured": false,
-      "description": "A computer vision platform that detects critical events in real time — drowsiness, intrusion, or unsafe activity — and dispatches contextual alerts. Built around a lightweight inference pipeline suitable for edge deployment.",
-      "tech": ["Computer Vision", "Python", "Deep Learning", "Edge AI"],
-      "github": null,
-      "demo": null,
-      "images": [],
-      "video": null
-    }
-  ]
-}
+[
+  {
+    "id": "cyra",
+    "title": "CYRA — ROS 2 AI Humanoid Tutor Robot",
+    "tagline": "Live AI-powered humanoid tutoring robot built with ROS 2 + Raspberry Pi 5.",
+    "description": "A live AI-powered humanoid tutoring robot built using ROS 2 and Raspberry Pi 5, designed for intelligent interactive education.",
+    "featured": true,
+    "year": "2025",
+    "features": [
+      "Timetable-based teaching automation",
+      "Scheduled topic delivery",
+      "Live doubt answering using APIs",
+      "Humanoid interaction",
+      "ROS 2 integration",
+      "AI-assisted tutoring",
+      "Raspberry Pi 5 main controller"
+    ],
+    "tech": ["ROS 2", "Raspberry Pi 5", "APIs", "Linux", "AI Integration"],
+    "category": "Robotics",
+    "images": [],
+    "video": null,
+    "links": {}
+  },
+  {
+    "id": "smart-wheelchair",
+    "title": "Human Assisting Smart Wheelchair",
+    "tagline": "Cost-efficient intelligent wheelchair assistance for elderly users.",
+    "description": "A cost-efficient intelligent wheelchair assistance system designed for elderly users.",
+    "featured": false,
+    "year": "2025",
+    "features": [
+      "Voice-controlled navigation",
+      "RTC-based automated tablet dispenser",
+      "Remote web control dashboard",
+      "Emergency alert trigger",
+      "ESP32 web server integration"
+    ],
+    "tech": ["ESP32", "IoT", "Voice Recognition", "Web Server", "RTC"],
+    "category": "Embedded",
+    "images": [],
+    "video": null
+  },
+  {
+    "id": "saferide",
+    "title": "SAFERIDE — Smart Accident Detection & Prevention",
+    "tagline": "Intelligent embedded safety platform for two-wheelers.",
+    "description": "An intelligent embedded safety platform for two-wheelers integrating crash detection, prevention, and emergency response.",
+    "featured": true,
+    "year": "2024",
+    "features": [
+      "Gyroscope crash detection",
+      "Vibration monitoring",
+      "GSM emergency alerting",
+      "Offline emergency location notification",
+      "Helmet verification",
+      "Alcohol detection",
+      "Overspeed detection",
+      "Engine heat monitoring",
+      "False alarm verification",
+      "ESP-NOW communication"
+    ],
+    "tech": ["ESP32", "GSM", "Sensors", "IoT", "Embedded Systems"],
+    "category": "Embedded",
+    "images": [],
+    "video": null
+  },
+  {
+    "id": "borewell-robot",
+    "title": "Borewell Rescue Robot",
+    "tagline": "Automated rescue robot for emergency borewell child rescue.",
+    "description": "An automated rescue robot designed for emergency borewell child rescue operations.",
+    "featured": false,
+    "year": "2024",
+    "features": [
+      "Autonomous descent",
+      "Live video feed",
+      "ESP32-CAM",
+      "Rescue mechanism support"
+    ],
+    "tech": ["ESP32", "ESP32-CAM", "Robotics", "Embedded Control"],
+    "category": "Robotics",
+    "images": [],
+    "video": null
+  },
+  {
+    "id": "alert-vision",
+    "title": "ALERT VISION",
+    "tagline": "Intelligent security extension for CCTV-based home protection.",
+    "description": "An intelligent security extension system for CCTV-based home protection with tamper detection and evidence capture.",
+    "featured": false,
+    "year": "2024",
+    "features": [
+      "CCTV tamper detection",
+      "Owner alerting",
+      "Hidden camera evidence capture",
+      "Smart access prevention",
+      "Authentication-controlled safety response"
+    ],
+    "tech": ["Computer Vision", "Embedded Systems", "IoT", "Security Systems"],
+    "category": "AI / Security",
+    "images": [],
+    "video": null
+  }
+]

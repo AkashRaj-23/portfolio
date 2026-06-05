@@ -1,10 +1,14 @@
 {
-  "achievements": [
-    { "title": "1st Prize — Invente 2025", "org": "SSN College of Engineering", "year": "2025" },
-    { "title": "1st Prize — Quantumania", "org": "Thiagarajar College of Engineering", "year": "2025" },
-    { "title": "2nd Prize — SDG-4 Hackfest 2K26", "org": "MKCE • 36-hour Hackathon", "year": "2026" },
-    { "title": "2nd Prize — National Level Project Expo", "org": "SIMATS", "year": "2025" },
-    { "title": "SIH Internal Hackathon Qualifier", "org": "Smart India Hackathon (×2)", "year": "2024" },
-    { "title": "15+ Symposium Wins", "org": "Across multiple institutions", "year": "—" }
-  ]
+  "major": [
+    { "title": "1st Prize — Invente 2025", "org": "SSN College of Engineering", "year": "2025", "type": "winner" },
+    { "title": "1st Prize — Quantumania", "org": "Thiagarajar College of Engineering", "year": "2025", "type": "winner" },
+    { "title": "2nd Prize — SDG-4 Hackfest 2K26", "org": "MKCE · 36-hour Hackathon", "year": "2026", "type": "runner" },
+    { "title": "2nd Prize — National Level Project Expo", "org": "SIMATS", "year": "2025", "type": "runner" },
+    { "title": "SIH Internal Hackathon Qualifier", "org": "Smart India Hackathon · ×2", "year": "2024–25", "type": "qualifier" }
+  ],
+  "stat": {
+    "value": "15+",
+    "label": "Technical Competition Wins",
+    "sub": "Across National Symposiums & Inter-college Events"
+  }
 }

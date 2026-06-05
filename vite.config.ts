@@ -2,21 +2,24 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
-import path from "path";
 
-// GitHub Pages base. Override in CI with VITE_BASE=/<repo>/
-const base = process.env.VITE_BASE || "/";
-
+// Pure SPA Vite config — GitHub Pages compatible.
+// `base: './'` makes all asset URLs relative so the build works at any subpath
+// (e.g. https://username.github.io/repo-name/).
 export default defineConfig({
-  base,
+  base: "./",
   plugins: [react(), tailwindcss(), tsconfigPaths()],
-  resolve: {
-    alias: { "@": path.resolve(__dirname, "./src") },
-  },
   server: {
     host: "::",
-    port: Number(process.env.PORT) || 8080,
-    strictPort: false,
-    allowedHosts: true,
+    port: 8080,
+    strictPort: true,
+  },
+  preview: {
+    host: "::",
+    port: 8080,
+  },
+  build: {
+    outDir: "dist",
+    sourcemap: false,
   },
 });

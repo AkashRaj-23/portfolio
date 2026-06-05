@@ -1,38 +1,40 @@
-import { useState } from "react";
-import BootLoader from "./components/BootLoader";
-import Navbar from "./components/Navbar";
-import Hero from "./components/sections/Hero";
-import About from "./components/sections/About";
-import Skills from "./components/sections/Skills";
-import Projects from "./components/sections/Projects";
-import Certificates from "./components/sections/Certificates";
-import Achievements from "./components/sections/Achievements";
-import Resume from "./components/sections/Resume";
-import Contact from "./components/sections/Contact";
-import Footer from "./components/Footer";
-import MusicToggle from "./components/MusicToggle";
+import { useState, lazy, Suspense } from "react";
+import { Loader } from "@/components/portfolio/Loader";
+import { Navbar } from "@/components/portfolio/Navbar";
+import { Hero } from "@/components/portfolio/Hero";
+
+const About = lazy(() => import("@/components/portfolio/About").then(m => ({ default: m.About })));
+const Skills = lazy(() => import("@/components/portfolio/Skills").then(m => ({ default: m.Skills })));
+const Projects = lazy(() => import("@/components/portfolio/Projects").then(m => ({ default: m.Projects })));
+const Achievements = lazy(() => import("@/components/portfolio/Achievements").then(m => ({ default: m.Achievements })));
+const Resume = lazy(() => import("@/components/portfolio/Resume").then(m => ({ default: m.Resume })));
+const Contact = lazy(() => import("@/components/portfolio/Contact").then(m => ({ default: m.Contact })));
+const Footer = lazy(() => import("@/components/portfolio/Footer").then(m => ({ default: m.Footer })));
+const MusicToggle = lazy(() => import("@/components/portfolio/MusicToggle").then(m => ({ default: m.MusicToggle })));
+const ArchiveOverlay = lazy(() => import("@/components/portfolio/ArchiveOverlay").then(m => ({ default: m.ArchiveOverlay })));
 
 export default function App() {
-  const [booted, setBooted] = useState(false);
-
+  const [loaded, setLoaded] = useState(false);
   return (
-    <div className="relative min-h-screen">
-      <div className="bg-aurora" />
-      <div className="bg-grid" />
-      {!booted && <BootLoader onDone={() => setBooted(true)} />}
+    <main className="relative min-h-screen overflow-x-hidden">
+      <div className="aurora" aria-hidden />
+      <div className="grid-bg fixed inset-0 -z-10 opacity-20" aria-hidden />
+
+      {!loaded && <Loader onDone={() => setLoaded(true)} />}
+
       <Navbar />
-      <main>
-        <Hero />
+      <Hero />
+      <Suspense fallback={<div className="h-32" />}>
         <About />
         <Skills />
         <Projects />
-        <Certificates />
         <Achievements />
         <Resume />
         <Contact />
-      </main>
-      <Footer />
-      <MusicToggle />
-    </div>
+        <Footer />
+        <MusicToggle />
+        <ArchiveOverlay />
+      </Suspense>
+    </main>
   );
 }

@@ -1,8 +1,11 @@
 {
   "email": "s.k.akash23raj@gmail.com",
   "location": "Madurai, Tamil Nadu",
-  "github": "https://github.com/AkashRaj-23",
-  "linkedin": "https://www.linkedin.com/in/akash-raj-s-k-9015b5280/",
-  "instagram": "https://www.instagram.com/akash.raj_23/",
-  "threads": "https://www.threads.com/@akash.raj_23"
+  "links": [
+    { "label": "GitHub", "icon": "Github", "url": "https://github.com/AkashRaj-23" },
+    { "label": "LinkedIn", "icon": "Linkedin", "url": "https://www.linkedin.com/in/akash-raj-s-k-9015b5280/" },
+    { "label": "Instagram", "icon": "Instagram", "url": "https://www.instagram.com/akash.raj_23/" },
+    { "label": "Threads", "icon": "AtSign", "url": "https://www.threads.com/@akash.raj_23" },
+    { "label": "Email", "icon": "Mail", "url": "mailto:s.k.akash23raj@gmail.com" }
+  ]
 }

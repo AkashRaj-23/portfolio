@@ -1,11 +1,18 @@
-{
-  "certificates": [
-    { "id": "vi-microsystems", "title": "7-Day Internship — Embedded Systems", "issuer": "VI Microsystems", "file": null },
-    { "id": "ai-conclave", "title": "AI Conclave — Participation", "issuer": "AI Conclave", "file": null },
-    { "id": "ros2-tce", "title": "ROS 2 Workshop", "issuer": "Thiagarajar College of Engineering", "file": null },
-    { "id": "nptel-iiot", "title": "Industrial IoT 4.0", "issuer": "NPTEL", "file": null },
-    { "id": "nptel-pcb", "title": "Hands-on PCB Design", "issuer": "NPTEL", "file": null },
-    { "id": "nptel-hci", "title": "Human Computer Interface", "issuer": "NPTEL", "file": null },
-    { "id": "nptel-iot", "title": "Internet of Things", "issuer": "NPTEL", "file": null }
-  ]
-}
+[
+  { "title": "1st Prize — Invente 2025", "issuer": "SSN College of Engineering", "category": "Competitions", "date": "2025", "file": null },
+  { "title": "1st Prize — Quantumania", "issuer": "Thiagarajar College of Engineering", "category": "Competitions", "date": "2025", "file": null },
+  { "title": "2nd Prize — SDG-4 Hackfest 2K26", "issuer": "MKCE · 36-hour Hackathon", "category": "Competitions", "date": "2026", "file": null },
+  { "title": "2nd Prize — National Level Project Expo", "issuer": "SIMATS", "category": "Competitions", "date": "2025", "file": null },
+  { "title": "SIH Internal Hackathon Qualifier (×2)", "issuer": "Smart India Hackathon", "category": "Competitions", "date": "2024–25", "file": null },
+
+  { "title": "7-day Internship — Embedded Systems", "issuer": "VI Microsystems", "category": "Internships", "date": "", "file": null },
+
+  { "title": "ROS 2 Hands-on Workshop", "issuer": "Thiagarajar College of Engineering", "category": "Workshops", "date": "", "file": null },
+
+  { "title": "Industrial IoT 4.0", "issuer": "NPTEL", "category": "NPTEL", "date": "", "file": null },
+  { "title": "Hands-on PCB Design", "issuer": "NPTEL", "category": "NPTEL", "date": "", "file": null },
+  { "title": "Human Computer Interface", "issuer": "NPTEL", "category": "NPTEL", "date": "", "file": null },
+  { "title": "Internet of Things", "issuer": "NPTEL", "category": "NPTEL", "date": "", "file": null },
+
+  { "title": "AI Conclave Participation", "issuer": "AI Conclave", "category": "Symposiums", "date": "", "file": null }
+]
