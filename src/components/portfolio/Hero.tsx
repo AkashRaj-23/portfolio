@@ -41,7 +41,7 @@ export function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center pt-28 pb-16 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-[1.4fr_1fr] xl:grid-cols-[1.5fr_1fr] gap-12 lg:gap-6 xl:gap-8 items-center">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-[1.4fr_1fr] xl:grid-cols-[1.5fr_1fr] gap-12 lg:gap-6 xl:gap-8 items-center">
 
           <div className="space-y-6 animate-fade-in text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs font-mono">
