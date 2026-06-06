@@ -10,7 +10,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="relative py-24 md:py-32">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <SectionHeader
           eyebrow="// 03 · PROJECTS"
           title={<>Real systems. <span className="text-gradient">Real impact.</span></>}

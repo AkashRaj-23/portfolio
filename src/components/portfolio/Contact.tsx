@@ -36,7 +36,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="relative py-24 md:py-32">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <SectionHeader
           eyebrow="// 07 · CONTACT"
           title={<>Let's build <span className="text-gradient">something real</span>.</>}

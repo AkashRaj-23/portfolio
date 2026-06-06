@@ -29,7 +29,7 @@ export function Skills() {
 
   return (
     <section id="skills" className="relative py-24 md:py-32">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <SectionHeader
           eyebrow="// 02 · SKILLS"
           title={<>The <span className="text-gradient-cyber">stack</span> behind the systems.</>}

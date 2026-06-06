@@ -17,7 +17,7 @@ const timeline = [
 export function About() {
   return (
     <section id="about" className="relative py-24 md:py-32">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <SectionHeader eyebrow="// 01 · ABOUT" title={<>Engineer with a <span className="text-gradient">startup mindset</span>.</>} />
 
         <div className="mt-14 grid lg:grid-cols-2 gap-10">

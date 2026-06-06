@@ -13,7 +13,7 @@ export function Certifications() {
   const base = import.meta.env.BASE_URL;
   return (
     <section id="certifications" className="relative py-24 md:py-32">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <SectionHeader
           eyebrow="// 05 · CERTIFICATIONS"
           title={<>Continually <span className="text-gradient-cyber">leveling up</span>.</>}

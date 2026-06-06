@@ -23,7 +23,7 @@ export function Achievements() {
 
   return (
     <section id="achievements" className="relative py-24 md:py-32">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <SectionHeader
           eyebrow="// 04 · ACHIEVEMENTS"
           title={<>Recognised at <span className="text-gradient">national stages</span>.</>}

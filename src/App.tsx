@@ -1,4 +1,4 @@
-import { useState, lazy, Suspense } from "react";
+import { useState, useEffect, lazy, Suspense } from "react";
 import { Loader } from "@/components/portfolio/Loader";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { Hero } from "@/components/portfolio/Hero";
@@ -15,6 +15,16 @@ const ArchiveOverlay = lazy(() => import("@/components/portfolio/ArchiveOverlay"
 
 export default function App() {
   const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    if ("scrollRestoration" in window.history) {
+      window.history.scrollRestoration = "manual";
+    }
+    if (!window.location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, []);
+
   return (
     <main className="relative min-h-screen overflow-x-hidden">
       <div className="aurora" aria-hidden />

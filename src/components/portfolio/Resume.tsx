@@ -6,7 +6,7 @@ export function Resume() {
   const url = `${base}resume.pdf`;
   return (
     <section id="resume" className="relative py-24 md:py-32">
-      <div className="container mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <SectionHeader
           eyebrow="// 06 · RESUME"
           title={<>The <span className="text-gradient">one-pager</span>.</>}
@@ -42,11 +42,12 @@ export function Resume() {
           </div>
 
           <div className="rounded-3xl border border-border overflow-hidden bg-card aspect-[3/4] lg:aspect-auto lg:min-h-[480px]">
-            <object data={url} type="application/pdf" className="w-full h-full">
-              <div className="h-full grid place-items-center p-8 text-center text-muted-foreground">
-                <p>PDF preview not available. <a href={url} className="text-primary-glow underline">Open resume</a>.</p>
-              </div>
-            </object>
+            <iframe
+              src={`${url}#toolbar=0&navpanes=0&view=FitH`}
+              title="Resume preview"
+              loading="lazy"
+              className="w-full h-full"
+            />
           </div>
         </div>
       </div>
